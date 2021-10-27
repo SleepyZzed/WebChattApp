@@ -1,0 +1,37 @@
+.message{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    flex: 0.75%;
+}
+.message:hover{
+    cursor: pointer;
+    color: gray;
+}
+.message:hover .clearicon{
+    width: 5%;
+    display: inline-block;
+    color: white;
+
+}
+.message__info{
+    margin-left: 20px;
+    width: 100%;
+}
+.message__timestamp{
+    color: gray;
+    margin-left: 20px;
+    font-size: x-small;
+}
+.clearicon{
+    display: none;
+
+}
+.message__info > p{
+    width: 95%;
+    display: inline-block;
+}
+.message__id{
+    display: none;
+}
